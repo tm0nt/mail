@@ -71,7 +71,7 @@ async function sendEmailsFromExcelFile(filePath, htmlFilePath) {
 // Caminho para a planilha Excel
 const excelFilePath = './leads2.xlsx';
 // Caminho para o arquivo HTML
-const htmlFilePath = path.join(__dirname, 'templates', 'email_template.html');
+const htmlFilePath = path.join(__dirname, 'email_template.html');
 
 // Enviar emails
 sendEmailsFromExcelFile(excelFilePath, htmlFilePath).then(() => {
